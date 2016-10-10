@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Arkalalah 2015</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+    <!-- Phonegap build - cordova support -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <!-- Phonegap build - cordova support -->
+  </head>
+  <body class="theme-red">
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-cover">
+      <div class="content-block">
+        <div class="content-block-title navpanel"><strong>Arkalalah 2016</strong></div>
+        <div class="list-block">
+          <ul style="background:none;">
+            <div class="clear">
+            <li class="navpanelblock"><a href="about.html" class="close-panel item-link">
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title">About</div>
+                  </div>
+                </div></a></li>
+            <li class="navpanelblock"><a href="concessions.html" class="close-panel item-link">
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title">Concessions</div>
+                  </div>
+                </div></a></li>
+            <li class="navpanelblock"><a href="events.html" class="close-panel item-link">
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title">Event Schedule</div>
+                  </div>
+                </div></a></li>
+            <li class="navpanelblock"><a href="reunions.html" class="close-panel item-link">
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title">Reunions</div>
+                  </div>
+                </div></a></li>
+            <li class="navpanelblock"><a href="sponsors.html" class="close-panel item-link">
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title">Sponsors</div>
+                  </div>
+                </div></a></li>
+          </ul>
+</div>
+          <div class="content-block-title navpanel">powered by brocorp</div>
+        </div>
+      </div>
+    </div>
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-fixed">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page">
+            <!-- Top Navbar-->
+            <div class="navbar theme-red">
+              <div class="navbar-inner">
+                <!-- We have home navbar without left link-->
+                <div class="center sliding">Arkalalah</div>
+                <div class="right">
+                  <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"><span>Menu</span><i class="icon icon-bars"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Scrollable page content-->
+            <div class="page-content">
+            <div class="card demo-card-header-pic">
+              <div style="background-image:url(img/royal_treatment.jpg)" valign="bottom" class="card-header color-white no-border"></div>
+              <div class="card-content">
+                <div class="card-content-inner" style="text-align:center;">
+                  <p><strong>Celebrate the 85th Annual Fall Festival<br>in Arkansas City, Kansas!</p>
+                  <p>October 26-29</strong></p>
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <!-- Each "cell" has col-[width in percents] class -->
+              <div class="col-33"></div>
+              <div class="col-33"><p><img src="img/brocorp.png" height="30px"></p></div>
+              <div class="col-33"></div>
+          </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Toolbar
+        <div class="toolbar">
+           <div class="toolbar-inner"><a href="events.html" class="link">Events</a><a href="concessions.html" class="link">Concessions</a></div>
+        </div>-->
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.new.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>

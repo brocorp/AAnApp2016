@@ -1,0 +1,62 @@
+/*.panel {
+background: rgba(222, 56, 50, 0.9) /* 0.85 = opacity */
+/*}*/
+
+
+/*.navpanel {
+  color: #fff;
+}
+
+.navpanelblock {
+  background-image: none;
+  background-color: transparent;
+  color: #fff;
+}*/
+
+div[class*="col-"] {
+  text-align: center;
+
+}
+.demo-card-header-pic .card-header {
+  height: 80vw;
+  background-size: cover;
+  background-position: center;
+  background-color: #2e1455;
+}
+.demo-card-header-pic .card-content-inner {
+  color: #FFF;
+  background-color: #2e1455;
+}
+
+#diamond {
+  background: #4EE2EC;
+  color: #FFF;
+}
+
+#platinum {
+  background: #e5e4e2;
+  color: #808080;
+}
+
+#gold {
+  background: #c5b358;
+  color: #FFF;
+}
+
+#silver {
+  background: #c0c0c0;
+  color: #808080;
+}
+
+#bronze {
+  background: #cd7f32;
+  color: #FFF;
+}
+
+.toolbar {
+  background: rgba(247, 247, 248, 0.9) /* 0.85 = opacity */
+}
+
+.navbar {
+  background: rgba(247, 247, 248, 0.9) /* 0.85 = opacity */
+}
